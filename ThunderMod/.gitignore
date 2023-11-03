@@ -74,14 +74,20 @@ crashlytics-build.properties
 [Aa]ssets/[Ss]treamingAssets/aa.meta
 [Aa]ssets/[Ss]treamingAssets/aa/*
 
-#RoR2 Packages Folder
+#RoR2
 [Pp]ackages/[Rr]isk of Rain 2/*.dll
 [Pp]ackages/[Rr]isk of Rain 2/[Pp]lugins/*.dll
 
+#Thunderkit Related
+Assets/ThunderKitSettings/EditorInspectorSettings.asset
+Assets/ThunderKitSettings/RoR2.asset
+Assets/ThunderKitSettings/Logs/*
+Assets/ThunderKitSettings/ThunderKit Extensions.asset
+ThunderKit/
+
+#Other
+Assets/Plugins/NGTools/*
+Assets/Resources/*
 Packages/*
 !Packages/packages-lock.json
 !Packages/manifest.json
-
-#ThunderKit root folder & Logs
-ThunderKit/
-Assets/ThunderKitSettings/Logs/
