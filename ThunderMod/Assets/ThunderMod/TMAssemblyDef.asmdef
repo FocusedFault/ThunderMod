@@ -1,0 +1,29 @@
+{
+    "name": "TMAssemblyDef",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "BepInEx.dll",
+        "MMHOOK_RoR2.dll",
+        "RoR2.dll",
+        "MonoMod.Utils.dll",
+        "Mono.Cecil.dll",
+        "HGUnityUtils.dll",
+        "HGCSharpUtils.dll",
+        "Zio.dll",
+        "Unity.Addressables.dll",
+        "Unity.ResourceManager.dll",
+        "UnityEngine.UI.dll",
+        "R2API.Core.dll",
+        "R2API.ContentManagement.dll",
+        "R2API.Stages.dll",
+        "R2API.Director.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
