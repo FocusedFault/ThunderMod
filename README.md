@@ -11,5 +11,6 @@
 8. Once it finishes importing it'll prompt you to restart
 9. If you get a prompt about a missing Bepinex, install it from the Thunderkit package manager `Tools` > `Thunderkit` > `Packages` and install Bepinex from the thunderstore tab.
 10. If you have a `BepInEx.Harmony.dll` error don't worry about it unless you're going to be using Harmony, if that's the case get some help in the modding discord's `thunderkit` channel or Thunderkit discord.
-11. That's it! You should be ready to get started.
-12. To build the project and get your assetbundle go to `Pipelines` click the pipelines file then click on the `Execute` button, your files will be in `Thunderkit` > `Libraries` for the dll and `Thunderkit` > `AssetBundleStaging` for your assetbundle.
+11. NOTICE: there is a bug in the latest ThunderKit version so you'll have to manually add `RISKOFRAIN2` (just type that in) to the project's scripting define symbols. To find the scripting define symbols you need to go to `Edit` > `Project Settings` > `Playe`r and type in `RISKOFRAIN2` to your Scripting Define Symbols.
+12. That's it! You should be ready to get started.
+13. To build the project and get your assetbundle go to `Pipelines` click the pipelines file then click on the `Execute` button, your files will be in `Thunderkit` > `Libraries` for the dll and `Thunderkit` > `AssetBundleStaging` for your assetbundle.
